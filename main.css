@@ -1,0 +1,58 @@
+.about h1{
+font-size: 80px;
+color: white;
+}
+
+span{
+	color: green;
+}
+
+
+h2 {
+	margin: 0;
+}
+
+h4 {
+	margin: 0;
+}
+
+footer p {
+	margin: 0;
+}
+
+.bluebox {
+	background: #373a5e;
+}
+
+.about {
+	background: #e3c76d ;
+	margin: 0;
+}
+
+.about h3 {
+	color: white;
+}
+
+.professional {
+	background: #000652;
+	margin: 0;
+}
+
+.projects {
+	background: #373a5e ;
+	margin: 0;
+}
+
+.experience {
+	background: #246e32;
+	margin: 0;
+}
+
+.contact {
+	background: #bfbfbf ;
+	margin: 0;
+}
+
+footer {
+	background: #bfbfbf;
+}
