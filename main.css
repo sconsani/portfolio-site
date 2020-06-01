@@ -9,10 +9,14 @@ span{
 
 
 h2 {
+	
 	margin: 0;
+	color: white;
+	text-align: center;
 }
 
 h4 {
+	color: white;
 	margin: 0;
 }
 
@@ -36,21 +40,37 @@ footer p {
 .professional {
 	background: #000652;
 	margin: 0;
+	height: 300px;
+}
+
+.professional h2 {
+	font-size: 40px;
 }
 
 .projects {
 	background: #373a5e ;
 	margin: 0;
+	height: 300px;
+}
+
+.projects h2 {
+	font-size: 40px;
 }
 
 .experience {
 	background: #246e32;
 	margin: 0;
+	height: 300px;
+}
+
+.experience h2 {
+	font-size: 40px;
 }
 
 .contact {
 	background: #bfbfbf ;
 	margin: 0;
+	height: 300px;
 }
 
 footer {
