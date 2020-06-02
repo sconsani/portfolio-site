@@ -20,20 +20,48 @@
     </head>
     <body>
         <header>
-        	<nav>
-        	</nav>
+        	<nav class="navbar fixed-top transparent navbar-inverse navbar-expand-md navbar-dark pt-0 pb-0 pl-0 pr-0 mr-0 mr-l-0">
+	      <div class="container">
+
+	        <a class="navbar-brand" href="/"><img id = "my-dev" src="#" alt="my-dev" height = "100" width = "100"></a>
+
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+
+	        <div class="collapse navbar-collapse" id="navbarCollapse">
+	          <ul class="navbar-nav ml-auto">
+	          	<li class="nav-item">
+	            	<a class="nav-link" href="#about">ABOUT</a>
+	            </li>
+	            <li class="nav-item">
+	            	<a class="nav-link" href="#professional">PROFESSIONAL</a>
+	            </li>
+	            <li class="nav-item">
+	            	<a class="nav-link" href="#projects">PROJECTS</a>
+	            </li>
+	            <li class="nav-item">
+	            	<a class="nav-link" href="#experience">EXPERIENCE</a>
+	            </li>
+	            <li class="nav-item">
+	            	<a class="nav-link" href="#contact">CONTACT</a>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </nav>
         </header>
 
-       	<section> 
-	        <div class = "about">
-	        	<div class = "intro-about mb-5">
+       	<section class = ""> 
+	        <div class = "about d-flex justify-content-center" id = "about">
+	        	<div class = "intro-about mb-5 p-5">
 			        <h1>I<span>'</span>M<br>SAMMY<br><span>CONSANI.</span></h1>
 			        <h3>FRONT END WEB DEVELOPER | ARTIST | WRITER | ILLUSTRATOR
 			        </h3>
 			    </div>
-		        <div class = "bluebox" style = "width:70%">
-			        <p class = "pl-5 pr-5 pt-5">I AM A BUILDER, A CREATOR, A DESIGNER AND A WRITER BASED IN SAN FRANCISCO, CALIFORNIA. I HAVE A BACKGROUND IN FINE ARTS AND GRAPHIC DESIGN.  I AM A FULL STACK WEB DEVELOPER, BUT I ENJOY WRITING FRONT-END CODE THE BEST. GIVE ME A PROBLEM, AND I'LL SOLVE IT FOR YOU. 
-			        <p class = " pl-5 pr-5 pb-5"> WHEN I'M NOT DEVELOPING WEBSITES, I LOVE TRAVELING, CAMPING, SKATEBOARDING, JUGGLING AND READING ABOUT PSYCHOLOGY.
+		        <div class = "bluebox pt-5" style = "width:70%">
+			        <p class = "about-p pl-5 pr-5 pt-5">I AM A BUILDER, A CREATOR, A DESIGNER AND A WRITER BASED IN SAN FRANCISCO, CALIFORNIA. I HAVE A BACKGROUND IN FINE ARTS AND GRAPHIC DESIGN.  I AM A FULL STACK WEB DEVELOPER, BUT I ENJOY WRITING FRONT-END CODE THE BEST. GIVE ME A PROBLEM, AND I'LL SOLVE IT FOR YOU. 
+			        <p class = "about-p pl-5 pr-5 pb-5"> WHEN I'M NOT DEVELOPING WEBSITES, I LOVE TRAVELING, CAMPING, SKATEBOARDING, JUGGLING AND READING ABOUT PSYCHOLOGY.
 			        </p>
 			        </p>
 			        <div class = "text-center pb-5 button">
@@ -42,24 +70,26 @@
 				</div>
 			</div>
 
-	        <div class = "pt-4 professional">
+	        <div class = "p-5 professional" id = "professional">
 	        	<h2 class = "">01 PROFESSIONAL</h2>
-	        	<h3>MY SOFTWARE AND TECHNOLOGY SKILLS</h3>
+	        	<h3>SOFTWARE AND TECHNOLOGY SKILLS</h3>
 	        	<!-- clean up this code- run through it in a loop and present the code this way -->
-	        	<button>JAVASCRIPT</button>
-	        	<button>HTML & CSS</button>
-	        	<button>PYTHON</button>
-	        	<button>EXPRESS</button>
-	        	<button>REACT</button>
-	        	<button>SQL</button>
-	        	<button>TEAM LEADERSHIP</button>
-	        	<button>ORGANIZATION</button>
-	        	<button>WIREFRAMING</button>
-	        	<button>ADOBE CREATIVE SUITE</button>
+	        	<div class = "skill-buttons d-flex flex-wrap">
+		        	<button type = "button" class = "btn-danger btn-lg m-2">JAVASCRIPT</button>
+		        	<button type = "button" class = "btn-danger btn-lg m-2">HTML & CSS</button>
+		        	<button type = "button" class = "btn-danger btn-lg m-2">EXPRESS</button>
+		        	<button type = "button" class = "btn-success btn-lg m-2">PYTHON</button>
+		        	<button type = "button" class = "btn-success btn-lg m-2">REACT</button>
+		        	<button type = "button" class = "btn-success btn-lg m-2">SQL</button>
+		        	<button type = "button" class = "btn-success btn-lg m-2">TEAM LEADERSHIP</button>
+		        	<button type = "button" class = "btn-warning btn-lg m-2">ORGANIZATION</button>
+		        	<button type = "button" class = "btn-warning btn-lg m-2">WIREFRAMING</button>
+		        	<button type = "button" class = "btn-warning btn-lg m-2">ADOBE CREATIVE SUITE</button>
+	        	</div>
 	    	</div>
 
-	    	<div class = "pt-4 projects">
-	    		<h2 class = "pt-2">02 PROJECTS</h2>
+	    	<div class = "p-5 projects" id = "projects">
+	    		<h2 class = "pt-2" >02 PROJECTS</h2>
 	    		<h3>MY LATEST PROJECTS</h3>
 	    		<div class = "project-images">
 	    			<img src = "#">
@@ -68,33 +98,55 @@
 	    		</div>
 	    	</div>
 
-	    	<div class = "pt-4 experience">
-	    		<h2 class = "pt-2">03 EXPERIENCE</h2>
+	    	<div class = "p-5 experience" id = "experience">
+	    		<h2 class = "pt-2" >03 EXPERIENCE</h2>
+	    		<div class = "jobs-container">
+					<div class = "row">
+						<div class = "col col-4">
+							<p>2020-2020 Feb-May</p>
+							<h4>General Assembly - Software Engineer Immersive</h4>
+							<h6>San Francisco, CA</h6>
+							<p>I completed a 12 Week, 480 hour immersive course developing skills in: Python, javaScript, jQuery, HTML, CSS, Bootstrap, MongoDB, Mongoose, Express, Django, postgreSQL, React, Github and more.</p><p>Check out my GA PROFILE.</p>
+						</div>
+						<div class = "col col-4">
+							<p>2018-2020</p>
+							<h4>Hickory Farms</h4>
+							<h6>Website Manager, Graphic Designer</h6>
+							<p>I managed the backend CMS and Magento to display correct products, banners, ads, new updates, copy etc to the user. </p><p>I also fixed site bugs associated to the user experience while shopping, in the shopping cart, and on individual product pages.</p>
+						</div>
+						<div class = "col col-4">
+							<p>2015-2018</p>
+							<h4>California Delicious</h4>
+							<h6>Website Manager, Graphic Designer, Photographer</h6>
+							<p>I managed the retail website through our CMS system as well as Magento to display the latest products, categories and features on display for our customers. As well as updated all SEO for each product and landing page.</p><p>I also created graphic designs for homepage banners, market emails and social media posts. As well as product photography for the website and our printed catalog.</p>
+						</div>
+
+	    			</div>
+	    		</div>
 	    	</div>
 
-	    	<div class = "pt-4 contact">
-	    		<div class = "contact-left">
+	    	<div class = "contact p-5 d-flex justify-content-around" id = "contact">
+	    		<div class = "contact-left" >
 		    		<h4>CONTACT</h4>
-		    		<p>sammyconsani@gmail.com</p>
-		    		<p>San Francisco, Bay Area, CA</p>
+		    		
+		    		<img src = "#"><p>sammyconsani@gmail.com</p>
+		    		<img src = "#"><p>San Francisco, Bay Area, CA</p>
 
 	    			<div class = "social-links">
-	    				<ul>
-	    					<li><img src = "#"></li>
-	    					<li><img src = "#"></li>
-	    					<li><img src = "#"></li>
-	    				</ul>
+	    				<img src = "#">
+	    				<img src = "#">
+	    				<img src = "#">
 	    			</div>
 	    		</div>
 
 	    		<div class = "contact-right">
-	    		<img src = "#">
+	    		<img src = "https://i.imgur.com/Iz4VW8l.jpg?1" class = "rounded-circle img-thumbnail float-right img-fluid" style = "height: 200px">
 	    		</div>
 	    	</div>
 	    </section>
 
 	    <footer>
-	    	<p>2020 By Sammy Consani</p>
+	    	<p class = "text-center">2020 By Sammy Consani</p>
 	    </footer>
         
 
