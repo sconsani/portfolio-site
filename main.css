@@ -123,6 +123,10 @@ footer p {
 	font-size: 40px;
 }
 
+.line {
+	border-right: 1px solid black
+}
+
 .contact {
 	background: #bfbfbf ;
 	margin: 0;
