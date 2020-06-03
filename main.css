@@ -98,7 +98,8 @@ footer p {
 }
 
 .projects {
-	background: #344256 ;
+/*	background: #344256 ;
+*/	background: #556884;
 	margin: 0;
 	height: auto;
 }
@@ -111,6 +112,12 @@ footer p {
 	color: #bfbfbf;
 	text-align: center;
 	font-size: 20px;
+}
+
+.project-image {
+	height: 200px;
+	display: inline;
+	margin: 2px;
 }
 
 .experience {
