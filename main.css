@@ -140,6 +140,11 @@ footer p {
 	height: 300px;
 }
 
+.social {
+	height: 35px;
+	padding: 2px;
+}
+
 footer {
 	background: #bfbfbf;
 
