@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+.top-name {
+	color:blue;
+}
+
 .button a {
 	color: #fcc603;
 }
