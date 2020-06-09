@@ -2,6 +2,24 @@ html {
 	scroll-behavior: smooth;
 }
 
+.button a {
+	color: #fcc603;
+}
+
+.button a:hover {
+	color: green;
+}
+
+.GA a {
+	color: #fcc603;
+	text-decoration: none;
+}
+
+.GA a:hover {
+	color: #fc9803;
+
+}
+
 .about h1{
 font-size: 80px;
 color: white;
@@ -15,6 +33,11 @@ color: white;
 	align-content: center;
 }
 */
+
+.contact span {
+	color: black;
+	margin-bottom: 2px;
+}
 span{
 	color: green;
 }
